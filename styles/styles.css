@@ -78,6 +78,7 @@
 
   }
   .discription{
+      
     background-color: #ffffff;
   }
 
@@ -388,7 +389,7 @@ padding-bottom 94px;
       }
 
       /*pagination*/
-      
+
       .pagination-link{
         font-weight: 700;
         font-size: 16px;
