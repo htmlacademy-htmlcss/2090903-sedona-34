@@ -24,12 +24,42 @@
   
   }
 
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  .wrapper{
+      background-color: #E5E5E5;
+      margin: 0 auto;
+      width: 950px;
+  }
   /*heder*/
 
   .page-header {
     color:#000000;   
-    background-color: #ffffff;
-  }
+    background-color: #ffffff;}
+    
+    .navigation{
+        display: flex;
+        
+        width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .navigation-list{
+        margin: 0px;
+        padding: 0px;
+        
+
+    }
+  
   .navigation-link {
     font-size: 20px;
     font-weight: 700;
@@ -50,7 +80,7 @@
 
   /*main section*/
 
-   .main-index h1,.offer-title {
+   .title {
     font-family:"PT Sans", sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -80,7 +110,7 @@
   .discription{
 
     background-color: #ffffff;
-    
+
   }
 
   /*advantages*/
@@ -112,6 +142,9 @@
    padding: 85px 92px;
     
 
+}
+.advantages{
+    background-color: #ffffff;
 }
 .advantages-item 
 {
@@ -209,13 +242,9 @@ padding-bottom 94px;
 
     }
     .page-subscribe-title{
-        font-size: 30px;
-        font-weight: 700;
-        line-height: 36px;
+        
         color:#ffffff;
-       text-align: center;
-
-       text-transform: uppercase;
+       
 
     }
     .subscribe-discription{
@@ -259,7 +288,7 @@ padding-bottom 94px;
       .infrastructure{
           color: #ffffff;
           background-image: url("../images/background-catalog.jpg");
-          background-size: 100% auto;
+          background-size: cover;
           background-repeat: no-repeat;
           
          
