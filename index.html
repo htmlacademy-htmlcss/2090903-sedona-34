@@ -1,12 +1,169 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+
   <body>
+    <div class="wrapper">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <header class="page-header">
+      <nav class="navigation">
+        <a class="main-header-logo">
+          <img src="images/logo.png" width="139" height="70" alt="Логотип сайта городка Седона">
+        </a>
+        <ul class="navigation-list">
+          <li><a class="navigation-link" href="main.html">Главная</a></li>
+          <li><a class="navigation-link" href="#">О Седоне</a></li>
+          <li><a class="navigation-link" href="catalog.html">Гостиницы</a></li>
+        </ul>
+        <ul class="site-navigation">
+          <li><a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a> </li>
+          <li><a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span><span
+                class="favourite-count">12</span></a> </li>
+          <li><a class="navigation-link navigation-button" href="#">Хочу сюда!</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <main class="main-index">
+      <div class="main-discription">
+        <img class="view-sedona" src="images/welcome.svg" width="458" height="352" alt="Welcome to Sedona!">
+        
+      </div>
+      <div class="discription">
+      <h1 class="title">Седона — небольшой городок в Аризоне,<br>
+        заслуживающий большего!</h1>
+      <p class="main-index-discription">Рассмотрим 5 причин, по которым Седона круче, чем Гранд-Каньон!</p>
+    </div>
+      <h2 class="visually-hidden">Преимущества</h2>
+
+      <div class="fact-one">
+        <div class="fact-one-div">
+          <h3 class="fact-title">Настоящий городок</h3>
+          <p class="fact-discription">— №1 —</p>
+          <p class="fact-discription">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          
+        </div>
+        <img class="fact-discription-img" src="images/fact-discription-img.jpg" width="800" height="384" alt="Фото Седоны">
+        </div>
+      
+
+      <div class="advantages">
+        <ul class="advantages-list">
+
+          <li class="advantages-item">
+            <div class="advantages-color">
+           
+            <img src="images/advantage-house.svg" width="75" height="72" alt="Жилье">
+            <h3 class="advantages-title">Жилье</h3>
+            <p class="advantages-description"></p>Рекомендуем пожить <br> в настоящем мотеле,<br>
+            всё как в кино!</p>
+          </div>
+          </li>
+          <li class="advantages-item">
+            <div class="advantages-food">
+            <img src="images/advantage-food.svg" width="75" height="72" alt="Еда">
+            <h3 class="advantages-title">Еда</h3>
+            <p class="advantages-description"></p>Всегда заказывайте <br>
+            топовый фирменный бургер,<br> вы не разочаруетесь!</p>
+          </div>
+          </li>
+          <li class="advantages-item">
+            <div class="advantages-color">
+            <img src="images/advantage-gift.svg" width="75" height="72" alt="Сувениры">
+            <h3 class="advantages-title">Сувениры</h3>
+            <p class="advantages-description"></p>Не только китайского,<br>
+            но и настоящего местного <br> производства!</p>
+            
+        
+          </li>
+        </ul>
+      </div>
+
+      <div class="fact-two">
+        <img class="fact-discription-img" src="images/fact-discription-bridge.jpg" width="800" height="384" alt="Фото мост дьявола">
+        <div class="fact-two-div">
+          <h3 class="fact-title">Там есть мост дьявола</h3>
+          <p class="fact-discription">— №2 —</p>
+          <p class="fact-discription">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+        </div>
+      </div>
+
+      <div class="advantages">
+        <ul class="advantages-list">
+
+          <li class="advantages-item">
+            <div class="advantages-color">
+            <h3 class="advantages-title">Небольшая
+              площадь</h3>
+            <span class="advantages-discription">— №3 —</span>
+            <p class="advantages-description"></p>Все достопримечательности <br> находятся очень близко</p>
+            </div>
+      
+          </li>
+          <li class="advantages-item">
+            <div class="fact-four">
+            <h3 class="advantages-title">Красивая
+              дорога</h3>
+            <span class="advantages-discription">— №4 —</span>
+            <p class="advantages-description"></p>Ехать в Седону из Лас-Вегаса <br> совсем не скучно!</p>
+            </div>
+          </li>
+          <li class="advantages-item">
+            <div class="advantages-color">
+            <h3 class="advantages-title">Мало
+              туристов</h3>
+            <span class="advantages-discription">— №5 —</span>
+            <p class="advantages-description"></p>Большинство едет в Гранд <br> Каньон и толпится там</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <section class="offer">
+        <h3 class="title">Заинтересовались?</h3>
+        <p class="offer-discription">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
+          Седоне
+        </p>
+        <a class="offer-link" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+      </section>
+      <section class="page-subscribe">
+        <h3 class="page-subscribe-title title">Подпишитесь на рассылку</h3>
+        <p class="subscribe-discription">Только полезная информация и никакого спама,<br> честное бойскаутское!</p>
+        <form>
+          
+            <label for="subscribe-e-mail" class="visually-hidden">
+              Ваш e-mail
+            </label>
+            <input type="text" id="subdcribe-e-mail" name="subdcribe-e-mail" placeholder="Ваш e-mail">
+          
+
+          <button class="button" type="submit">Подписаться</button>
+        </form>
+      </section>
+    </main>
+    <footer class="page-footer">
+
+
+      <h3 class="visually-hidden">Контакты</h3>
+      <ul class="footer-contacts">
+        <li><a class=" button" href="#"></a> <span class="visually-hidden">Вконтакте</span></li>
+        <li><a class="button" href="#"></a> <span class="visually-hidden">Телеграм</span></li>
+        <li><a class="button" href="#"></a><span class="visually-hidden">Ютуб</span></li>
+      </ul>
+      <address class="contacts-address">
+        <a class="contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+      </address>
+      <a href="#" class="footer-contacts-logo"><img src="images/html-academy.svg" width="115" height="33" alt="Логотип html-academy."></a>
+    </footer>
+
+
+  </div>
   </body>
+
+
 </html>
