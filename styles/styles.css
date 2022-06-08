@@ -21,6 +21,9 @@
   line-height: 26px;
   color: #000000;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  
   
   }
 
@@ -38,7 +41,8 @@
   .wrapper{
       background-color: #E5E5E5;
       margin: 0 auto;
-      width: 950px;
+      width: 1280px;
+    
   }
   /*heder*/
 
@@ -47,18 +51,29 @@
     background-color: #ffffff;}
     
     .navigation{
-        display: flex;
+       
         
-        width: 1200px;
+        width: 1060px;
         margin: 0 auto;
+        display: flex;
     }
     
     .navigation-list{
+        width:550px;
         margin: 0px;
         padding: 0px;
-        
+        list-style-type: none;
 
     }
+  .site-navigation{
+    list-style-type: none;
+   
+    width: 300px;
+    margin-left: auto;
+
+  }
+  
+      
   
   .navigation-link {
     font-size: 20px;
@@ -80,6 +95,10 @@
 
   /*main section*/
 
+  .page-container {
+    width: 1200px;
+    margin: 0 auto;
+  }
    .title {
     font-family:"PT Sans", sans-serif;
     font-size: 30px;
@@ -88,6 +107,7 @@
     color: #000000;
    text-align: center;
    text-transform: uppercase;
+   margin:0px;
     
    }
 
@@ -123,6 +143,7 @@
     color:#FFFFFF;
    text-align: center;
    text-transform: uppercase;
+   margin: 0;
 }
 
 .fact-discription {
@@ -132,27 +153,48 @@
     background-color:#82B3D3;
     color:#FFFFFF;
    text-align: center;
+   margin-bottom: 0;
+
   
 
+}
+.fact-one{
+    display:flex;
+    
+    
+   
 }
 .fact-one-div {
     background-color:#82B3D3;
     color:#FFFFFF;
    text-align: center;
-   padding: 85px 92px;
+   width: 384px;
+   padding: 92px 85px;
+   
     
 
 }
 .advantages{
     background-color: #ffffff;
+    
+   
 }
 .advantages-item 
 {
     
     color:#000000;
    text-align: center;
-   padding: 80px 85px;
-   display:inline-block;  
+   
+    
+}
+.advantages-list{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    width:1200px;
+    box-sizing: border-box;
+    margin:0px;
+    
 }
 .advantages-title {
     font-family:"PT Sans", sans-serif;
@@ -177,15 +219,25 @@
 }
 .advantages-color{
     background-color:rgba(131, 179, 211, 0.12);
-    padding:85px 80px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    width: 400px;
+   
+    
 
 }
 .advantages-food {
     background-color:#ffffff;
-    padding:85px 80px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    width: 400px;
+   
    
 }
-
+.fact-two{
+    display: flex;
+    margin:0px;
+}
 .fact-two-div {
     background-color:#82B3D3;
     color:#FFFFFF;
@@ -196,7 +248,9 @@
    
    .fact-four{
     background-color:rgba(131, 179, 211, 0.2);
-    padding:85px 103px;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    width: 400px;
 
    }
    
@@ -270,7 +324,17 @@ padding-bottom 94px;
     .page-footer{
         color: #000000;
         background-color: #ffffff;
-        т
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footer-contacts{
+        width:200px;
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+
     }
     .contacts-phone {
         font-style: normal;
