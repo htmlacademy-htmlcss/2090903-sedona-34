@@ -121,15 +121,21 @@
   
   }
 
-  
+  .view-sedona{
+    padding:51px 371px 82px;
+  }
   .main-index-discription {
     color:#333333;
    text-align: center;
+   margin-bottom: 0;
+   padding-bottom: 90px;
 
   }
   .discription{
 
     background-color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
 
   }
 
@@ -259,11 +265,17 @@
     .offer-discription{
         color:#333333;
        text-align: center;
+       
+       
     }
 
     .offer{
         background-color: #ffffff;
         text-align: center;
+        
+    }
+    .offer .title{
+      padding-top: 91px;
     }
 
     .offer-link{
@@ -272,6 +284,7 @@
         line-height: 36px;
         color:#ffffff;
        text-align: center;
+      
 
        text-transform: uppercase;
        background-color: #756157;
@@ -321,13 +334,20 @@ padding-bottom 94px;
 
     /*footer*/
 
+    
+    
     .page-footer{
         color: #000000;
         background-color: #ffffff;
         width: 1200px;
         margin: 0 auto;
-        display: flex;
-        justify-content: space-around;
+        
+    }
+    .footer-container{
+      width:1060px;
+      padding:40px 70px 30px;
+      display: flex;
+        justify-content: space-between;
     }
     .footer-contacts{
         width:200px;
@@ -353,27 +373,42 @@ padding-bottom 94px;
           color: #ffffff;
           background-image: url("../images/background-catalog.jpg");
           background-size: cover;
-          background-repeat: no-repeat;
+          background-repeat: no-repeat;}
+
+          .inner-header-title{
+              margin: 0 auto;
+              
+
+          }
           
          
-      }
+      
        
       .inner-header-title{
         font-size: 60px;
         font-weight: 700;
         line-height: 78px;
+        margin-left: 70px;
 
       }
     .breadcrumbs-link{
         font-size: 16px;
         line-height: 21px;
+        
 
+    }
+    .catalog-filter{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
     }
       .filter-title{
         font-size: 20px;
         line-height: 26px;
 
       }
+     
+      
        .control{
         font-size: 18px;
         line-height: 21px;
@@ -402,24 +437,93 @@ padding-bottom 94px;
        text-transform: uppercase;
 
       }
+      .botton-icon{
+          list-style-type: none;
+      }
+      .found-list{
+          background-color: #FFFFFF;
+         
+         
+      }
+      .found-container{
+        display: flex;
+        width:1057px;
+        padding: 50px 71px 56px 72px;
+        
+          
+        justify-content: space-around;
+
+      }
       .found-list-count{
         font-weight: 700;
         font-size: 30px;
         line-height: 36px;
+        text-transform: uppercase;
+        margin: 0px;
 
       }
       .select-control{
         font-size: 18px;
         line-height: 21px;
+    
+      }
+      .breadcrumbs{
+          display: flex;
+          list-style-type: none;
+          width: 110px;
       }
 
       /*hotel card*/
 
+      .hotel-list{
+        
+         
+         background-color: #ffffff;
+         display: flex;
+         margin-left: 0;
+         
+         flex-wrap: wrap;
+         list-style-type: none;
+         width: 1200px;
+         padding-left: 0;
+         box-sizing: border-box;
+         justify-content: flex-start;
+         
+         
+      }
+
+
+         
+        
+    
+      .hotel-list-container{
+       
+        width: 1200px;
+        margin:0 auto;
+        background-color: #ffffff;
+        
+        
+       
+
+
+      }
+      .hotel-card{ list-style-type: none;
+        padding-left: 0;
+       
+        margin: 0;
+        
+
+      }
+
       .hotel-card-wrapper{
           background-color: #ffffff;
-          text-align: center;
-          padding: 20px;
-          display:block;
+          
+         
+        padding:20px;
+          width: 340px;
+         
+         
+         
           
       }
       .hotel-card-title{
@@ -483,7 +587,25 @@ padding-bottom 94px;
       }
 
       /*pagination*/
+.pagination{
+    display: flex;
+    list-style-type: none;
+    
+}
+.pagination-select{
+    background-color: #ffffff;
+    
+}
+.pagination-container{
+  justify-content: space-around;
+    
+  display: flex;
+  width:1056px;
+  padding-left:73px;
+  padding-right: 71px;
+  padding-bottom: 25px;
 
+}
       .pagination-link{
         font-weight: 700;
         font-size: 16px;
@@ -492,6 +614,7 @@ padding-bottom 94px;
         color:#ffffff;
         background-color: #82B3D3;
         text-align: center;   
+        
       }
       .pagination-current{
           background-color: #F2F2F2;
@@ -500,4 +623,5 @@ padding-bottom 94px;
       .select-sort{
         font-size: 18px;
         line-height: 21px;   
+        
       }
