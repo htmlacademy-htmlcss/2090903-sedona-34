@@ -27,7 +27,7 @@
                         <li><a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a> </li>
                         <li><a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span><span
                                     class="favourite-count">12</span></a> </li>
-                        <li><a class="navigation-link navigation-button" href="#">Хочу сюда!</a></li>
+                        <li><a class="navigation-link button navigation-button" href="#">Хочу сюда!</a></li>
                     </ul>
                 </nav>
             </header>
@@ -50,7 +50,7 @@
                     </header>
                     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
-                        <fieldset class="filter-group infrostructure">
+                        <fieldset class="filter-group-infrastructure">
                             <legend class="filter-title">Инфраструктура:</legend>
                             <label class="control">
                                 <input class="control-input" type="checkbox" name="swimming-pool" checked>
@@ -154,11 +154,12 @@
 
                             <a class="hotel-card-button button" href="#">Подробнее</a>
                             <button class="basket-button button">В Избранное</button>
+                            <div class="star-container">
 
                             <span class="star"></span>
                             <span class="star"></span>
                             <span class="star"></span>
-                            <span class="star"></span>
+                            <span class="star"></span></div>
                             <span class="hotel-raiting">Рейтинг:8,5</span>
                         </div>
                     </li>
@@ -176,11 +177,13 @@
 
                             <a class="hotel-card-button button" href="#">Подробнее</a>
                             <button class="button-selected button">В Избранном</button>
+                            <div class="star-container">
 
                             <span class="star"></span>
                             <span class="star"></span>
                             <span class="star"></span>
                             <span class="star"></span>
+                          </div>
                             <span class="hotel-raiting">Рейтинг:9,2</span>
                         </div>
                     </li>
@@ -198,10 +201,11 @@
 
                             <a class="hotel-card-button button" href="#">Подробнее</a>
                             <button class="basket-button button">В Избранное</button>
+                            <div class="star-container">
 
                             <span class="star"></span>
                             <span class="star"></span>
-                            <span class="star"></span>
+                            <span class="star"></span></div>
                             <span class="hotel-raiting">Рейтинг:6,9</span>
                         </div>
                     </li>
@@ -219,9 +223,10 @@
 
                             <a class="hotel-card-button button" href="#">Подробнее</a>
                             <button class="basket-button button">В Избранное</button>
+                            <div class="star-container">
 
                             <span class="star"></span>
-                            <span class="star"></span>
+                            <span class="star"></span></div>
 
                             <span class="hotel-raiting">Рейтинг:5,0</span>
                         </div>
@@ -265,7 +270,7 @@
                 <section class="page-subscribe">
                     <h3 class="page-subscribe-title title">Подпишитесь на рассылку</h3>
                     <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-                    <form>
+                    <form class="subscribe-form">
 
                         <label for="subscribe-e-mail" class="visually-hidden">
                             Ваш e-mail
