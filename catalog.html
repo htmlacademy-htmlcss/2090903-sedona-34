@@ -16,7 +16,7 @@
             <header class="page-header">
                 <nav class="navigation">
                     <a class="main-header-logo" href="index.html">
-                        <img src="images/logo.png" width="139" height="70" alt="Логотип сайта городка Седона">
+                        <img src="images/logo.png" class="main-logo" width="139" height="70" alt="Логотип сайта городка Седона">
                     </a>
                     <ul class="navigation-list">
                         <li><a class="navigation-link" href="index.html">Главная</a></li>
@@ -27,7 +27,7 @@
                         <li><a class="navigation-link" href="#"><span class="visually-hidden">Поиск</span></a> </li>
                         <li><a class="navigation-link" href="#"><span class="visually-hidden">Избранное</span><span
                                     class="favourite-count">12</span></a> </li>
-                        <li><a class="navigation-link navigation-button" href="#">Хочу сюда!</a></li>
+                        <li><a class="navigation-link button navigation-button" href="#">Хочу сюда!</a></li>
                     </ul>
                 </nav>
             </header>
@@ -50,7 +50,7 @@
                     </header>
                     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
-                        <fieldset class="filter-group infrostructure">
+                        <fieldset class="filter-group-infrastructure">
                             <legend class="filter-title">Инфраструктура:</legend>
                             <label class="control">
                                 <input class="control-input" type="checkbox" name="swimming-pool" checked>
@@ -102,12 +102,14 @@
                                 <imput class="control-imput" type="range" name="price-range" min="0" max="9000">
                             </label>
                         </fieldset>
+                        <div class="filter-buttons">
                         <button class="button button-apply" type="submit">
                             Применить
                         </button>
                         <button class="button button-reset" type="reset">
                             Сбросить
                         </button>
+                      </div>
 
                     </form>
 
@@ -122,18 +124,18 @@
                         <option value="popular">Сначала популярные</option>
                         <option value="expensive">Сначала дорогие</option>
                     </select>
-                    <ul class="botton-icon">
-                        <li>
-                            <a href="#" class="button-view">
+                    <ul class="button-icon">
+                        <li class="sort-buttons-item">
+                          <button class="sort-buttons-link button-sort-table sort-button-selected">
                                 <span class="visually-hidden">Показать иконки</span>
-                            </a>
+                              </button>
                         </li>
-                        <li><a class="button-view" href="#">
-                                <span class="visually-hidden">Показать ???</span>
-                            </a></li>
-                        <li><a class="button-view" href="#">
+                        <li class="sort-buttons-item" ><button class="sort-buttons-link button-sort-slideshow">
+                                <span class="visually-hidden">Показать слайдшоу</span>
+                        </button></li>
+                        <li class="sort-buttons-item"><button class="sort-buttons-link button-sort-list">
                                 <span class="visually-hidden">Показать список</span>
-                            </a></li>
+                              </button></li>
                     </ul>
                 </div>
                 </div>
@@ -154,11 +156,12 @@
 
                             <a class="hotel-card-button button" href="#">Подробнее</a>
                             <button class="basket-button button">В Избранное</button>
+                            <div class="star-container">
 
                             <span class="star"></span>
                             <span class="star"></span>
                             <span class="star"></span>
-                            <span class="star"></span>
+                            <span class="star"></span></div>
                             <span class="hotel-raiting">Рейтинг:8,5</span>
                         </div>
                     </li>
@@ -176,11 +179,13 @@
 
                             <a class="hotel-card-button button" href="#">Подробнее</a>
                             <button class="button-selected button">В Избранном</button>
+                            <div class="star-container">
 
                             <span class="star"></span>
                             <span class="star"></span>
                             <span class="star"></span>
                             <span class="star"></span>
+                          </div>
                             <span class="hotel-raiting">Рейтинг:9,2</span>
                         </div>
                     </li>
@@ -198,10 +203,11 @@
 
                             <a class="hotel-card-button button" href="#">Подробнее</a>
                             <button class="basket-button button">В Избранное</button>
+                            <div class="star-container">
 
                             <span class="star"></span>
                             <span class="star"></span>
-                            <span class="star"></span>
+                            <span class="star"></span></div>
                             <span class="hotel-raiting">Рейтинг:6,9</span>
                         </div>
                     </li>
@@ -219,9 +225,10 @@
 
                             <a class="hotel-card-button button" href="#">Подробнее</a>
                             <button class="basket-button button">В Избранное</button>
+                            <div class="star-container">
 
                             <span class="star"></span>
-                            <span class="star"></span>
+                            <span class="star"></span></div>
 
                             <span class="hotel-raiting">Рейтинг:5,0</span>
                         </div>
@@ -265,7 +272,7 @@
                 <section class="page-subscribe">
                     <h3 class="page-subscribe-title title">Подпишитесь на рассылку</h3>
                     <p class="subscribe-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-                    <form>
+                    <form class="subscribe-form">
 
                         <label for="subscribe-e-mail" class="visually-hidden">
                             Ваш e-mail
