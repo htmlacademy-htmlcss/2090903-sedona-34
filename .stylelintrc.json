@@ -1,4 +1,6 @@
+
 {
+
   "rules": {
     "block-no-empty": true,
     "comment-no-empty": true,
@@ -156,4 +158,7 @@
     "color-named": "never",
     "number-max-precision": 2
   }
+  {
+    "расширяет": "stylelint-config-htmlacademy"
+    }
 }
