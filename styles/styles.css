@@ -1031,7 +1031,7 @@ input[type='number']::-webkit-inner-spin-button {
   right: 15px;
   padding: 0;
   bottom: 15px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
